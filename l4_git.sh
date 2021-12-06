@@ -1,0 +1,2 @@
+#!/bin/bash
+cp C:/Users/craft/Desktop/labu2/bash/Repetukha/VARB/GR1/Vadim.txt C:/Users/craft/Desktop/labu2/bash/Repetukha/Vadim_copy.txt && cp C:/Users/craft/Desktop/labu2/bash/Repetukha/VARC/GR2/Repetukha.txt C:/Users/craft/Desktop/labu2/bash/Repetukha/Repetukha_copy.txt
