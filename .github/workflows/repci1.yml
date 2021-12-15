@@ -14,21 +14,21 @@ on:
   workflow_dispatch:
 
 
-image: ...
+  image: ...
 
-stages:
-  - build
+  stages:
+    - build
 
-build_branch:
-  stage: build
-  script:
-    - ./gitact.sh
-  except:
-    - master
+  build_branch:
+    stage: build
+    script:
+      - ./gitact.sh
+    except:
+      - master
 
-build_master:
-  stage: build
-  script:
-    - ./gitact.sh
-  only:
-    - master
+  build_master:
+    stage: build
+    script:
+      - ./gitact.sh
+    only:
+      - master
