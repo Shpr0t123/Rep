@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker Image CI-act1
 
 on:
   push:
@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag act1
     - name: Run the Docker image
-      run: docker run my-image-name
+      run: docker run act1
